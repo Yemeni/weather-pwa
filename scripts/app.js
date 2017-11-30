@@ -103,7 +103,7 @@ document.getElementById('butAddCity').addEventListener('click', function() {
     // Verifies the data provide is newer than what's already visible
     // on the card, if it's not bail, if it is, continue and update the
     // time saved in the card
-    var cardLastUpdatedElem = card.querySelector('.card-last-updated');
+        var cardLastUpdatedElem = card.querySelector('.card-last-updated');
     var cardLastUpdated = cardLastUpdatedElem.textContent;
     if (cardLastUpdated) {
       cardLastUpdated = new Date(cardLastUpdated);
